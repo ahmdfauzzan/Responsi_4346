@@ -9,7 +9,7 @@ namespace responsiuas2377
     class Program
     {
         static List<Penjualan> daftarProduk = new List<Penjualan>();
-        static Penjualan prod = new Penjualan();
+        static Penjualan pjln = new Penjualan();
 
         static void Main(string[] args)
         {
@@ -54,19 +54,19 @@ namespace responsiuas2377
         static void TambahProduk()
         {
             Console.Clear();
-            prod = new Penjualan();
+            pjln = new Penjualan();
             Console.WriteLine("Tambah data Penjualan\n");
             Console.Write("Nota   : ");
-            prod.Nota = Console.ReadLine();
+            pjln.Nota = Console.ReadLine();
             Console.Write("Tanggal   : ");
-            prod.Tanggal = Console.ReadLine();
+            pjln.Tanggal = Console.ReadLine();
             Console.Write("Customer  : ");
-            prod.Customer = Console.ReadLine();
+            pjln.Customer = Console.ReadLine();
             Console.Write("Jenis [T/K]   : ");
-            prod.Jenis = Console.ReadLine();
+            pjln.Jenis = Console.ReadLine() == "T" ? "Tunai" : "Kredit";
             Console.Write("Total Nota   : ");
-            prod.TotalNota = Console.ReadLine();
-            daftarProduk.Add(prod);
+            pjln.TotalNota = Console.ReadLine();
+            daftarProduk.Add(pjln);
         
             Console.WriteLine("\nTekan ENTER untuk kembali ke menu");
             Console.ReadKey();
@@ -81,7 +81,7 @@ namespace responsiuas2377
             Console.WriteLine("Data Penjualan\n");
             foreach (Penjualan objProd in daftarProduk)
             {
-                Console.WriteLine("{0}.{1},{2},{3},{4}", no, objProd.Nota, objProd.Tanggal, objProd.Customer, objProd.Jenis, objProd.TotalNota);
+                Console.WriteLine("{0}.{1},{2},{3},{4},{5}", no, objProd.Nota, objProd.Tanggal, objProd.Customer, objProd.Jenis, objProd.TotalNota);
                 no++;
             }
 
