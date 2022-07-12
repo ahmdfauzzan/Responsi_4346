@@ -1,0 +1,6 @@
+D:\Kuliah\Semester 2\Pemrograman\ResponsiPemrograman\ProjekPenjualan\ProjekPenjualan\bin\Debug\ProjekPenjualan.exe.config
+D:\Kuliah\Semester 2\Pemrograman\ResponsiPemrograman\ProjekPenjualan\ProjekPenjualan\bin\Debug\ProjekPenjualan.exe
+D:\Kuliah\Semester 2\Pemrograman\ResponsiPemrograman\ProjekPenjualan\ProjekPenjualan\bin\Debug\ProjekPenjualan.pdb
+D:\Kuliah\Semester 2\Pemrograman\ResponsiPemrograman\ProjekPenjualan\ProjekPenjualan\obj\Debug\ProjekPenjualan.csprojResolveAssemblyReference.cache
+D:\Kuliah\Semester 2\Pemrograman\ResponsiPemrograman\ProjekPenjualan\ProjekPenjualan\obj\Debug\ProjekPenjualan.exe
+D:\Kuliah\Semester 2\Pemrograman\ResponsiPemrograman\ProjekPenjualan\ProjekPenjualan\obj\Debug\ProjekPenjualan.pdb
